@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow" data-publish>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Кофейня «Кекс» в Соколе – завтраки, десерты, праздники</title>
+<meta name="description" content="Кофейня «Кекс» в Соколе: завтраки с 10 до 20, витрина десертов, кофе и бабл ти, зал для праздников до 70 гостей. ТЦ «Арбат», Советская улица, 77. +7 921 539-29-69.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Кофейня «Кекс»">
+<meta property="og:title" content="Кофейня «Кекс» в Соколе">
+<meta property="og:description" content="Завтраки весь день, витрина десертов и зал для праздников. Рейтинг 4,9 на Яндекс Картах.">
+<meta property="og:image" content="./assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f7eeea">
+<link rel="preload" as="image" href="assets/hero-m.webp" media="(max-width: 860px)" fetchpriority="high">
+<link rel="preload" as="image" href="assets/hero.webp" media="(min-width: 861px)" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,500&family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2715%27 fill=%27%233a2329%27/%3E%3Ctext x=%2716%27 y=%2721%27 font-family=%27Arial%27 font-weight=%27700%27 font-style=%27italic%27 font-size=%2714%27 fill=%27%23fff4f6%27 text-anchor=%27middle%27%3EK%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="vibe.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Кофейня «Кекс»","telephone":"+79215392969","priceRange":"от 400 ₽","address":{"@type":"PostalAddress","streetAddress":"Советская улица, 77, ТЦ «Арбат»","addressLocality":"Сокол","addressRegion":"Вологодская область","addressCountry":"RU"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Sunday"],"opens":"10:00","closes":"21:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"10:00","closes":"22:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","ratingCount":"254"},"sameAs":["https://vk.ru/coffe_keks"]}
+</script>
+<style>
+  /* ---- тема «Слива и молочная пенка»: сливовая стойка, кирпич и орех зала, тёплый свет ламп ---- */
+  .v-page {
+    --v-canvas: #f7eeea; --v-surface: #fffaf7;
+    --v-ink: #2c1a20; --v-ink-soft: #6c5359;
+    --v-accent: #7a3550; --v-accent-ink: #fff4f6;
+    --plum: #7a3550; --glaze: #c98a5c;
+    --on-photo: #f8efe9; --on-photo-soft: #e6d6d0;
+    --v-shadow-color: 58 26 38;
+    --v-font-display: "Lora", "Georgia", serif;
+    --v-font-text: "Golos Text", "Segoe UI", system-ui, sans-serif;
+    --v-display-weight: 500;
+    --v-track-tight: -0.01em;
+    --v-radius: 6px;
+    --v-section: clamp(4.5rem, 10vw, 9rem);
+  }
+  html, body { margin: 0; background: #f7eeea; }
+  html { scroll-padding-top: 5rem; }
+  .v-page { line-height: 1.6; letter-spacing: .005em; }
+  .v-page .v-display { line-height: 1.1; }
+  .v-page .v-display--xl { font-size: clamp(2.5rem, 1.3rem + 4.2vw, 5.4rem); line-height: 1.04; }
+  .v-page h3 { font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-xl); line-height: 1.15; }
+  .v-page p { text-wrap: pretty; }
+  .soft { color: var(--v-ink-soft); }
+  .slot { background: color-mix(in oklab, var(--glaze) 30%, transparent); border-radius: 3px; padding: 0 .25em; }
+  .v-page a.link { color: var(--v-ink); text-decoration: underline; text-decoration-color: color-mix(in oklab, var(--v-accent) 70%, transparent); text-underline-offset: .22em; transition: text-decoration-color .16s var(--v-ease-out); }
+  @media (hover: hover) and (pointer: fine) { .v-page a.link:hover { text-decoration-color: var(--v-accent); } }
+  .v-page a:focus-visible, .v-page button:focus-visible { outline: 2px solid var(--v-accent); outline-offset: 3px; }
+  .who { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+
+  /* ---- шапка ---- */
+  .bar { position: fixed; inset: 0 0 auto 0; z-index: 30; display: flex; align-items: center; gap: var(--v-5); padding: .8rem var(--v-gutter); transition: background-color .3s var(--v-ease-out), box-shadow .3s var(--v-ease-out); }
+  .bar:not(.is-scrolled) { --v-ink: var(--on-photo); --v-ink-soft: var(--on-photo-soft); color: var(--v-ink); }
+  .bar.is-scrolled { background: rgb(247 238 234 / .92); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: 0 1px 0 var(--v-hair); }
+  .bar__brand { display: flex; align-items: center; gap: .65rem; font-family: var(--v-font-display); font-size: 1.45rem; line-height: 1; text-decoration: none; }
+  .bar__brand i { display: grid; place-items: center; width: 2.1rem; height: 2.1rem; border-radius: 50%; background: #3a2329; color: #fff4f6; font: italic 700 1rem/1 "Arial", sans-serif; letter-spacing: -.02em; }
+  .bar__brand small { font-family: var(--v-font-text); font-size: var(--v-t-xs); color: var(--v-ink-soft); letter-spacing: .02em; }
+  @media (max-width: 480px) { .bar__brand { font-size: 1.2rem; } .bar { gap: var(--v-3); padding-inline: 1rem; } .bar .v-btn { padding: .65em 1em; font-size: .8rem; } }
+  .bar nav { display: flex; gap: var(--v-5); margin-left: auto; font-size: var(--v-t-sm); }
+  .bar nav a { text-decoration: none; color: var(--v-ink-soft); transition: color .16s var(--v-ease-out); }
+  @media (hover: hover) and (pointer: fine) { .bar nav a:hover { color: var(--v-ink); } }
+  .bar .v-btn { padding: .7em 1.2em; }
+  @media (max-width: 1020px) { .bar nav { display: none; } .bar .v-btn { margin-left: auto; } .bar__brand small { display: none; } }
+
+  /* ---- 1 · hero ---- */
+  #top { --v-ink: var(--on-photo); --v-ink-soft: var(--on-photo-soft); color: var(--v-ink); }
+  .hero__back { inset: -6% 0; }
+  .hero__back img, .hero__back picture { width: 100%; height: 100%; }
+  .hero__back img { object-fit: cover; object-position: 30% 50%; }
+  .hero__shade { position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background: linear-gradient(90deg, rgb(30 14 20 / .88) 0%, rgb(30 14 20 / .62) 38%, transparent 68%), linear-gradient(to top, rgb(30 14 20 / .72), transparent 40%); }
+  .hero__copy { max-width: min(46rem, 88vw); }
+  .hero__copy .v-lede { margin-top: var(--v-5); max-width: 32ch; color: #f0e2dc; }
+  .hero__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-5); margin-top: var(--v-6); }
+  .hero__when { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .hero__when b { font-weight: 500; color: var(--v-ink); }
+  @media (max-width: 860px) {
+    .hero__back img { object-position: 40% 30%; }
+    .hero__shade { background: linear-gradient(to top, rgb(30 14 20 / .94) 0%, rgb(30 14 20 / .66) 44%, transparent 76%); }
+    .hero__copy.v-copy--lead { bottom: clamp(2rem, 7vh, 4rem); }
+  }
+
+  /* ---- 2 · сегодня: открыто ли сейчас и часы ---- */
+  .today { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+  .today__ph { position: relative; aspect-ratio: 3 / 4; overflow: hidden; border-radius: var(--v-radius); box-shadow: var(--v-e2); }
+  .today__ph img { width: 100%; height: 100%; object-fit: cover; }
+  .today__ph figcaption { position: absolute; left: 1rem; bottom: .9rem; font-size: var(--v-t-xs); color: #fbf1ec; text-shadow: 0 1px 8px rgb(0 0 0 / .7); }
+  .today__lead { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .today__time { font-family: var(--v-font-display); font-size: clamp(3rem, 1.8rem + 5.6vw, 7rem); line-height: .98; letter-spacing: -.02em; font-variant-numeric: tabular-nums; margin-top: var(--v-3); }
+  .today__time small { display: block; font-family: var(--v-font-text); font-size: var(--v-t-lg); letter-spacing: 0; color: var(--v-ink); margin-bottom: var(--v-3); }
+  .today__note { margin-top: var(--v-5); max-width: 40ch; font-size: var(--v-t-lg); line-height: 1.45; }
+  .status { display: inline-flex; align-items: center; gap: .55rem; margin-top: var(--v-7); font-size: var(--v-t-sm); }
+  .status i { width: .55rem; height: .55rem; border-radius: 50%; background: #3f9a5c; box-shadow: 0 0 0 4px rgb(63 154 92 / .16); }
+  .status.is-closed i { background: var(--v-ink-soft); box-shadow: 0 0 0 4px rgb(108 83 89 / .16); }
+  .hours { margin-top: var(--v-4); display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-top: 1px solid var(--v-hair); font-size: var(--v-t-xs); }
+  .hours li { padding: .7rem .2rem 0; color: var(--v-ink-soft); }
+  .hours li b { display: block; font-weight: 500; color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  .hours li.is-today { color: var(--v-ink); box-shadow: inset 0 2px 0 var(--v-accent); }
+  .hours li.is-today b { color: var(--v-ink); }
+  .tip { margin-top: var(--v-6); padding-top: var(--v-5); border-top: 1px solid var(--v-hair); max-width: 44ch; }
+  .tip p { font-family: var(--v-font-display); font-size: var(--v-t-lg); line-height: 1.35; }
+  .tip p.who { margin-top: var(--v-2); font-family: var(--v-font-text); font-size: var(--v-t-sm); line-height: 1.5; }
+  @media (max-width: 860px) {
+    .today { grid-template-columns: 1fr; }
+    .today__ph { aspect-ratio: 3 / 4; width: min(100%, calc(72svh * .75)); }
+    .hours { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: .4rem; }
+  }
+
+  /* ---- 3 · меню: веер страниц меню (pin) ---- */
+  .fanwrap { position: absolute; inset: 0; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(1.5rem, 4vw, 4rem); align-items: center; padding: 5.5rem var(--v-gutter) 2rem; max-width: 84rem; margin-inline: auto; }
+  .fanwrap__copy { display: flex; flex-direction: column; gap: var(--v-5); max-width: 30rem; }
+  .fan { position: relative; height: min(70svh, 38rem); --open: min(1, calc(var(--v-p, 0) * 2.6 + .06)); --ang: 5deg; --spread: clamp(2.6rem, 4.6vw, 4.4rem); --cw: clamp(10rem, 14vw, 14rem); }
+  .v-page .fan__card { position: absolute; left: 50%; bottom: 4%; width: var(--cw); padding: .45rem .45rem 0; border-radius: 6px; background: #ffffff; color: #2c1a20; box-shadow: 0 1px 3px rgb(58 26 38 / .18), 0 16px 36px rgb(58 26 38 / .24); cursor: zoom-in; text-align: left;
+    transform-origin: 50% 150%;
+    transform: translateX(-50%) translateX(calc(var(--d) * var(--spread) * var(--open))) rotate(calc(var(--d) * var(--ang) * var(--open)));
+    transition: translate .18s var(--v-ease-out); }
+  .fan__card img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: top; border-radius: 3px; }
+  .fan__card span { display: block; padding: .5rem .15rem .6rem; font-size: var(--v-t-xs); font-weight: 500; line-height: 1.3; }
+  @media (hover: hover) and (pointer: fine) { .v-page .fan__card:hover { translate: 0 -1.4rem; z-index: 10; } }
+  .v-page .fan__card:focus-visible { translate: 0 -1.4rem; z-index: 10; }
+  .fan__hint { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  @media (max-width: 860px) {
+    .fanwrap { grid-template-columns: 1fr; grid-template-rows: auto 1fr; align-items: start; gap: var(--v-3); padding: 4.8rem var(--v-gutter) 1rem; }
+    .fanwrap__copy { gap: var(--v-3); }
+    .fanwrap__copy .v-display--md { font-size: var(--v-t-xl); }
+    .fan { height: 100%; min-height: 20rem; --ang: 3.5deg; --spread: 1.6rem; --cw: 7.7rem; }
+    .v-page .fan__card { transform-origin: 50% 140%; bottom: auto; top: 12%; }
+  }
+
+  /* ---- 4 · завтраки: фото + меню с ценами ---- */
+  .cuisine { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+  .cuisine__ph { border-radius: var(--v-radius); overflow: hidden; aspect-ratio: 4 / 3; box-shadow: var(--v-e2); }
+  .cuisine__ph img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+  .cuisine__ph + p { margin-top: var(--v-3); font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+  .page li { padding: .9rem 0; border-top: 1px solid var(--v-hair); }
+  .page li:first-child { border-top: 0; padding-top: 0; }
+  .line { display: flex; align-items: baseline; gap: .6rem; }
+  .line span { font-weight: 500; }
+  .line::after { content: ""; order: 1; flex: 1; border-bottom: 1px dotted var(--v-hair-strong); transform: translateY(-.25em); }
+  .line em { order: 2; font-style: normal; font-size: var(--v-t-sm); color: var(--v-ink); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .page li p { font-size: var(--v-t-sm); color: var(--v-ink-soft); margin-top: .25rem; }
+  .cuisine__note { margin-top: var(--v-5); font-size: var(--v-t-sm); color: var(--v-ink-soft); max-width: 46ch; }
+  @media (max-width: 860px) { .cuisine { grid-template-columns: 1fr; } }
+
+  /* ---- 5 · витрина: десерты и напитки на «полке» ---- */
+  .case__head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: var(--v-4) var(--v-6); }
+  .case__head p { max-width: 40ch; }
+  .shelf { margin-top: var(--v-8); display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: clamp(.75rem, 1.6vw, 1.4rem); padding-bottom: 1.1rem; position: relative; }
+  .shelf::after { content: ""; position: absolute; left: -1rem; right: -1rem; bottom: 0; height: .55rem; border-radius: 2px;
+    background: linear-gradient(to bottom, rgb(255 255 255 / .9), rgb(210 190 186 / .55)); box-shadow: 0 10px 22px rgb(58 26 38 / .14); }
+  .shelf figure:nth-child(even) { margin-top: 2.2rem; }
+  .shelf img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: var(--v-radius); box-shadow: var(--v-e2); }
+  .shelf figcaption { margin-top: .6rem; font-size: var(--v-t-sm); line-height: 1.35; }
+  @media (max-width: 960px) { .shelf { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: var(--v-6); } .shelf::after { display: none; } .shelf figure:nth-child(even) { margin-top: 0; } }
+  @media (max-width: 520px) { .shelf { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+  /* ---- 6 · отзывы ---- */
+  .rev__head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: var(--v-5); }
+  .rating { display: flex; align-items: center; gap: var(--v-4); }
+  .rating b { font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-3xl); line-height: 1; }
+  .stars { color: var(--glaze); letter-spacing: .12em; font-size: 1.05rem; }
+  .rev__big { margin-top: var(--v-8); max-width: 26ch; font-family: var(--v-font-display); font-size: var(--v-t-2xl); line-height: 1.25; }
+  .rev__big + .who { margin-top: var(--v-4); }
+  .rev__two { margin-top: var(--v-8); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--v-7); max-width: 60rem; }
+  .rev__two p:first-child { font-family: var(--v-font-display); font-size: var(--v-t-lg); line-height: 1.4; }
+  .rev__two .who { margin-top: var(--v-3); }
+  .rev__more { margin-top: var(--v-8); }
+  @media (max-width: 760px) { .rev__big { font-size: var(--v-t-xl); } .rev__two { grid-template-columns: 1fr; gap: var(--v-6); } .rev__more { margin-top: var(--v-7); } }
+
+  /* ---- 7 · праздники в новом зале ---- */
+  .fest { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+  .fest__ph { position: relative; padding-bottom: 14%; }
+  .fest__ph .a { border-radius: var(--v-radius); overflow: hidden; aspect-ratio: 4 / 3; box-shadow: var(--v-e2); }
+  .fest__ph .b { position: absolute; right: -6%; bottom: 0; width: 52%; aspect-ratio: 3 / 2; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2); outline: 6px solid var(--v-canvas); }
+  .fest__ph img { width: 100%; height: 100%; object-fit: cover; }
+  .facts { margin-top: var(--v-6); }
+  .facts li { display: grid; grid-template-columns: 8.5rem 1fr; gap: var(--v-4); padding: .85rem 0; border-top: 1px solid var(--v-hair); }
+  .facts li span { color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  @media (max-width: 860px) { .fest { grid-template-columns: 1fr; } .fest__ph .b { right: 0; } .facts li { grid-template-columns: 1fr; gap: .1rem; } }
+
+  /* ---- 8 · как найти ---- */
+  .road { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 6fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+  .road__ph { position: relative; border-radius: var(--v-radius); overflow: hidden; aspect-ratio: 3 / 4; box-shadow: var(--v-e2); }
+  .road__ph img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+  .road__ph figcaption { position: absolute; left: 1rem; right: 1rem; bottom: .9rem; font-size: var(--v-t-xs); color: #fbf1ec; text-shadow: 0 1px 8px rgb(0 0 0 / .75); }
+  .road .actions { display: flex; flex-wrap: wrap; gap: var(--v-3); margin-top: var(--v-6); }
+  @media (max-width: 860px) { .road { grid-template-columns: 1fr; } .road__ph { order: -1; width: min(100%, calc(70svh * .75)); } }
+
+  .lb { padding: 0; border: 0; background: transparent; max-width: 94vw; max-height: 92svh; overflow: visible; }
+  .lb::backdrop { background: rgb(20 8 12 / .9); }
+  .lb img { display: block; max-width: 94vw; max-height: 86svh; width: auto; height: auto; border-radius: var(--v-radius); }
+  .v-page .lb__close, .lb__close { display: block; margin: .8rem auto 0; padding: .55em 1.2em; border-radius: 999px; color: #fbf1ec; font: inherit; font-size: .9rem; background: transparent; border: 1px solid rgb(251 241 236 / .4); cursor: pointer; }
+
+  /* ---- 9 · финал ---- */
+  .final { position: relative; overflow: hidden; }
+  .final::before { content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(60rem 30rem at calc(var(--v-mx, .5) * 100%) 110%, rgb(122 53 80 / .18), transparent 60%); }
+  .close { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: var(--v-5); }
+  .close h2 { max-width: 16ch; }
+  .close p { max-width: 42ch; font-size: var(--v-t-lg); }
+  .close .actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-5); margin-top: var(--v-3); }
+  .foot { position: relative; margin-top: var(--v-9); padding-top: var(--v-5); border-top: 1px solid var(--v-hair); display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--v-3) var(--v-6); font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+</style>
+</head>
+<body>
+<div class="v-page">
+  <div data-v-progress></div>
+  <div class="v-grain" aria-hidden="true"></div>
+
+  <header class="bar">
+    <a class="bar__brand" href="#top" aria-label="Кофейня «Кекс» – наверх"><i aria-hidden="true">K</i>Кекс<small>кофейня в Соколе</small></a>
+    <nav aria-label="Разделы">
+      <a href="#segodnya">Сегодня</a>
+      <a href="#menu">Меню</a>
+      <a href="#zavtraki">Завтраки</a>
+      <a href="#vitrina">Витрина</a>
+      <a href="#otzyvy">Отзывы</a>
+      <a href="#prazdniki">Праздники</a>
+      <a href="#doroga">Как найти</a>
+    </nav>
+    <a class="v-btn" href="tel:+79215392969">Забронировать стол</a>
+  </header>
+
+  <main>
+
+    <!-- 1 · УЗНАВАНИЕ: зал со стойкой и меловой доской -->
+    <section id="top" data-v-act="pin" data-v-span="1.6" data-v-drift="#f7eeea" aria-label="Кофейня «Кекс» в Соколе">
+      <div data-v-stage>
+        <div class="v-layer hero__back" data-v-parallax="-0.5">
+          <picture>
+            <source media="(max-width: 860px)" srcset="assets/hero-m.webp">
+            <img src="assets/hero.webp" alt="Зал кофейни «Кекс»: сливовая стойка, меловая доска с ценами на кофе, полки с подсветкой и столики" width="1920" height="1080" fetchpriority="high">
+          </picture>
+        </div>
+        <div class="hero__shade" aria-hidden="true"></div>
+        <div class="v-copy v-copy--lead hero__copy" data-v-cue="0 0.85 0 0.12">
+          <h1 class="v-display v-display--xl" data-v-kinetic="lines">Кофейня «Кекс» в Соколе</h1>
+          <p class="v-lede">Завтраки весь день, витрина десертов, кофе и бабл ти. ТЦ «Арбат», Советская улица, 77.</p>
+          <div class="hero__cta">
+            <a class="v-btn" href="tel:+79215392969">Забронировать стол</a>
+            <span class="hero__when"><b>+7 921 539-29-69</b><br>каждый день с 10:00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · СЕГОДНЯ: открыто ли сейчас, часы и кухня -->
+    <section class="v-section v-section--tight" data-v-act="flow" data-v-drift="#f4e9e4" id="segodnya" aria-label="Сегодня в «Кексе»">
+      <div class="v-wrap today">
+        <figure class="today__ph" data-v-reveal="up" data-v-reveal-at="0.08 0.4">
+          <img src="assets/zal.webp" alt="Угол зала: мягкий диван вдоль кирпичной стены, деревянные столы, полки с подсветкой" width="960" height="1280" loading="lazy" decoding="async">
+          <figcaption>Зал кофейни. Фото с Яндекс Карт</figcaption>
+        </figure>
+        <div data-v-in data-v-stagger="80">
+          <p class="today__lead" data-today-date>Сегодня в Соколе</p>
+          <p class="today__time"><small data-time-label>Сегодня работаем</small><span data-time-text>10:00 – 21:00</span></p>
+          <p class="today__note" data-time-note>Кухня закрывается на час раньше зала. Завтраки подаём с 10 до 20.</p>
+          <div>
+            <p class="status" data-status><i aria-hidden="true"></i><span data-status-text>Каждый день с 10:00</span></p>
+            <ul class="hours" data-hours aria-label="Часы работы">
+              <li data-d="1"><b>Пн</b>10–21</li>
+              <li data-d="2"><b>Вт</b>10–21</li>
+              <li data-d="3"><b>Ср</b>10–21</li>
+              <li data-d="4"><b>Чт</b>10–21</li>
+              <li data-d="5"><b>Пт</b>10–22</li>
+              <li data-d="6"><b>Сб</b>10–22</li>
+              <li data-d="0"><b>Вс</b>10–21</li>
+            </ul>
+          </div>
+          <div class="tip">
+            <p>«Время обслуживания всегда не более 5 минут.»</p>
+            <p class="who">Гость кофейни, отзыв на Яндекс Картах, 2 апреля</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · ВЫБОР: страницы меню веером -->
+    <section id="menu" data-v-act="pin" data-v-span="2.2" data-v-drift="#f1e4df" aria-label="Меню">
+      <div data-v-stage>
+        <div class="fanwrap">
+          <div class="fanwrap__copy">
+            <h2 class="v-display v-display--md">Меню «Кекса»</h2>
+            <p class="soft">Завтраки, пицца, паста и лапша WOK, венские вафли, кофе, бабл ти, милкшейки и лимонады. Это страницы бумажного меню кофейни, цены на них в рублях.</p>
+            <p class="fan__hint">Нажмите на страницу, чтобы прочитать крупно. <a class="link" href="#zavtraki">Завтраки с ценами списком</a></p>
+          </div>
+          <div class="fan">
+            <button type="button" class="fan__card" style="--d: -3" data-full="assets/menu-kokteyli-full.webp"><img src="assets/menu-kokteyli.webp" alt="Страница меню: милкшейки, смузи, лимонады" width="600" height="800" loading="lazy" decoding="async"><span>Милкшейки и лимонады</span></button>
+            <button type="button" class="fan__card" style="--d: -2" data-full="assets/menu-babl-full.webp"><img src="assets/menu-babl.webp" alt="Страница меню: бабл ти и бабл-кофе" width="600" height="800" loading="lazy" decoding="async"><span>Бабл ти</span></button>
+            <button type="button" class="fan__card" style="--d: -1" data-full="assets/menu-kofe-full.webp"><img src="assets/menu-kofe.webp" alt="Страница меню: кофе и горячие напитки" width="600" height="800" loading="lazy" decoding="async"><span>Кофе</span></button>
+            <button type="button" class="fan__card" style="--d: 3" data-full="assets/menu-vafli-full.webp"><img src="assets/menu-vafli.webp" alt="Страница меню: венские вафли" width="600" height="800" loading="lazy" decoding="async"><span>Венские вафли</span></button>
+            <button type="button" class="fan__card" style="--d: 2" data-full="assets/menu-pasta-full.webp"><img src="assets/menu-pasta.webp" alt="Страница меню: паста, ризотто, лапша WOK" width="600" height="800" loading="lazy" decoding="async"><span>Паста и WOK</span></button>
+            <button type="button" class="fan__card" style="--d: 1" data-full="assets/menu-pitstsa-full.webp"><img src="assets/menu-pitstsa.webp" alt="Страница меню: пицца" width="600" height="800" loading="lazy" decoding="async"><span>Пицца</span></button>
+            <button type="button" class="fan__card" style="--d: 0" data-full="assets/menu-zavtraki-full.webp"><img src="assets/menu-zavtraki.webp" alt="Страница меню: завтраки" width="600" height="800" loading="lazy" decoding="async"><span>Завтраки</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · КУХНЯ: завтраки с ценами -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#f6ece8" id="zavtraki" aria-label="Завтраки">
+      <div class="v-wrap cuisine">
+        <div>
+          <div class="cuisine__ph"><img src="assets/blyuda.webp" alt="Английский завтрак: глазунья, колбаски, бекон, тосты, соусы на деревянном столе" width="1200" height="900" loading="lazy" decoding="async"></div>
+          <p>Английский завтрак. Фото с Яндекс Карт.</p>
+        </div>
+        <div data-v-in data-v-stagger="70">
+          <h2 class="v-display v-display--md">Завтраки с 10 до 20</h2>
+          <div class="page" style="margin-top: var(--v-6)">
+            <ul>
+              <li><div class="line"><span>Английский завтрак</span><em>100/115/30 г · 350 ₽</em></div><p>Глазунья из двух яиц, бекон, охотничьи колбаски, шампиньоны гриль, фасоль, кукуруза, тосты, соус барбекю.</p></li>
+              <li><div class="line"><span>Баварский завтрак</span><em>100/100/40/30 г · 350 ₽</em></div><p>Глазунья с молочными сосисками на гриле, перец, кукуруза, фасоль, тосты.</p></li>
+              <li><div class="line"><span>Королевский омлет</span><em>200/30 г · 350 ₽</em></div><p>Омлет на молоке с ветчиной, сыром и тартаром из малиновых томатов.</p></li>
+              <li><div class="line"><span>Сырники</span><em>150/30/30 г · 350 ₽</em></div><p>Со сметаной, джемом и кленовым сиропом, с грецким орехом.</p></li>
+              <li><div class="line"><span>Драники с беконом или с сыром</span><em>170 г · 330 ₽</em></div></li>
+              <li><div class="line"><span>Клаб-сэндвич</span><em>220 г · 380 ₽</em></div></li>
+              <li><div class="line"><span>Каша овсяная или рисовая</span><em>280/30 г · 250 ₽</em></div><p>На молоке, с тостами, топингом или фруктами.</p></li>
+            </ul>
+          </div>
+          <p class="cuisine__note">Цены со страницы меню кофейни. Средний чек – от 400 ₽.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · ФИРМЕННЫЙ ХОД: витрина десертов и напитков -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#f3e7e2" id="vitrina" aria-label="Витрина десертов и напитки">
+      <div class="v-wrap">
+        <div class="case__head" data-v-in data-v-stagger="70">
+          <h2 class="v-display v-display--lg">Что сегодня на витрине</h2>
+          <p class="soft">Торты, пирожные и чизкейки стоят в витрине у стойки. К ним – кофе от бариста, лимонады и бабл ти.</p>
+        </div>
+        <div class="shelf" data-v-in data-v-stagger="60">
+          <figure><img src="assets/vitrina.webp" alt="Витрина с тортами и пирожными у стойки" width="720" height="960" loading="lazy" decoding="async"><figcaption>Витрина у стойки</figcaption></figure>
+          <figure><img src="assets/deserty.webp" alt="Красные глазированные пирожные на подставке" width="720" height="960" loading="lazy" decoding="async"><figcaption>Пирожные в глазури</figcaption></figure>
+          <figure><img src="assets/rozy.webp" alt="Розовые пирожные в форме роз" width="720" height="960" loading="lazy" decoding="async"><figcaption>Пирожные-розы</figcaption></figure>
+          <figure><img src="assets/chizkeyk.webp" alt="Чизкейк с печеньем на тарелке" width="720" height="960" loading="lazy" decoding="async"><figcaption>Чизкейк</figcaption></figure>
+          <figure><img src="assets/latte.webp" alt="Кофе с рисунком на молочной пенке" width="720" height="960" loading="lazy" decoding="async"><figcaption>Кофе от бариста</figcaption></figure>
+          <figure><img src="assets/limonad.webp" alt="Два лимонада в стаканах с логотипом KEKS" width="720" height="960" loading="lazy" decoding="async"><figcaption>Лимонады</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · ДОКАЗАТЕЛЬСТВО: отзывы -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#f6ece8" id="otzyvy" aria-label="Отзывы гостей">
+      <div class="v-wrap">
+        <div class="rev__head" data-v-in data-v-stagger="70">
+          <h2 class="v-display v-display--lg">Что пишут гости</h2>
+          <div class="rating">
+            <b>4,9</b>
+            <div><div class="stars" aria-hidden="true">★★★★★</div><span class="soft">на Яндекс Картах: 254 оценки, 134 отзыва</span></div>
+          </div>
+        </div>
+        <div data-v-in>
+          <p class="rev__big">«Лучшее кафе в городе<br>Замечательные бизнес ланчи по приятным ценам<br>Огромный выбор десертов»</p>
+          <p class="who">Гость кофейни, 13 марта</p>
+        </div>
+        <div class="rev__two" data-v-in data-v-stagger="80">
+          <div>
+            <p>«Сервис хороший, вкусные блюда и не высокие цены. … Для семейных праздников сделали новый банкетный зал, очень понравилось»</p>
+            <p class="who">Гость кофейни, 30 июня</p>
+          </div>
+          <div>
+            <p>«… Очень вкусные завтраки и обеды. В восторге от данного заведения. По цене все доступно.»</p>
+            <p class="who">Гостья города, 5 февраля</p>
+          </div>
+        </div>
+        <p class="rev__more"><a class="link" href="https://yandex.ru/maps/org/keks/45645482102/reviews/" target="_blank" rel="noopener">Читать все отзывы на Яндекс Картах</a></p>
+      </div>
+    </section>
+
+    <!-- 7 · ПРАЗДНИКИ: новый зал -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#f1e4df" id="prazdniki" aria-label="Праздники в новом зале">
+      <div class="v-wrap fest">
+        <div class="fest__ph">
+          <div class="a"><img src="assets/banket.webp" alt="Новый светлый зал для праздников: столы, мягкие кресла, гирлянды под потолком" width="1200" height="900" loading="lazy" decoding="async"></div>
+          <div class="b" data-v-reveal="left" data-v-reveal-at="0.2 0.5"><img src="assets/banket-b.webp" alt="Столы у больших окон в новом зале" width="900" height="600" loading="lazy" decoding="async"></div>
+        </div>
+        <div data-v-in data-v-stagger="70">
+          <h2 class="v-display v-display--md">Новый зал для праздников</h2>
+          <p class="v-body" style="margin-top: var(--v-5)">Корпоратив, свадьба, юбилей или выпускной. Мебель расставим под ваш праздник, в зале есть свет и звук. Здесь же проходят квизы, мастер-классы и кинопоказы.</p>
+          <ul class="facts">
+            <li><span>Банкет</span><b>до 70 гостей</b></li>
+            <li><span>Театральная посадка</span><b>до 100 человек</b></li>
+            <li><span>Вход</span><b>отдельный</b></li>
+            <li><span>Цена и меню</span><b>назовём по телефону до брони</b></li>
+          </ul>
+          <p style="margin-top: var(--v-6)"><a class="link" href="tel:+79215392969">Обсудить праздник: +7 921 539-29-69</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 · ДОВЕРИЕ: как найти (ответ на «на фасаде нет вывески кафе») -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#f6ece8" id="doroga" aria-label="Как найти">
+      <div class="v-wrap road">
+        <figure class="road__ph"><img src="assets/vhod.webp" alt="Фасад ТЦ «Арбат»: красно-серое здание с вывеской «Арбат» над входом" width="960" height="1280" loading="lazy" decoding="async"><figcaption>Ищите вывеску «Арбат» – кофейня на первом этаже</figcaption></figure>
+        <div data-v-in data-v-stagger="70">
+          <h2 class="v-display v-display--md">Как нас найти</h2>
+          <p class="v-body" style="margin-top: var(--v-5)">Кофейня на первом этаже ТЦ «Арбат» в центре Сокола. С улицы ищите красно-серое здание с большой вывеской «Арбат»: своей вывески кафе на фасаде нет.</p>
+          <ul class="facts">
+            <li><span>Адрес</span><b>Сокол, Советская улица, 77, ТЦ «Арбат», 1 этаж</b></li>
+            <li><span>Часы</span><b>пн–чт и вс 10:00–21:00, пт–сб 10:00–22:00</b></li>
+            <li><span>Кухня</span><b>до 20:00, в пятницу и субботу до 21:00</b></li>
+            <li><span>Телефон</span><b><a class="link" href="tel:+79215392969">+7 921 539-29-69</a></b></li>
+            <li><span>Парковка</span><b>бесплатная</b></li>
+            <li><span>Удобства</span><b>пандус, зал доступен на коляске, можно с собакой и с ноутбуком</b></li>
+          </ul>
+          <div class="actions">
+            <a class="v-btn v-btn--ghost" href="https://yandex.ru/maps/org/keks/45645482102/" target="_blank" rel="noopener">Открыть на Яндекс Картах</a>
+            <a class="v-btn v-btn--ghost" href="https://vk.ru/coffe_keks" target="_blank" rel="noopener">Мы во ВКонтакте</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9 · ДЕЙСТВИЕ -->
+    <section class="v-section final" data-v-act="flow" data-v-drift="#f8f0ec" data-v-spotlight aria-label="Забронировать стол">
+      <div class="v-wrap">
+        <div class="close" data-v-in data-v-stagger="90">
+          <h2 class="v-display v-display--lg">Забронируйте стол в «Кексе»</h2>
+          <p class="soft">Позвоните или напишите в WhatsApp или Telegram, и мы оставим для вас стол. Про банкет расскажем и назовём цену до брони.</p>
+          <div class="actions">
+            <a class="v-btn" href="tel:+79215392969" data-v-magnet="0.2" data-v-rise="0">Позвонить</a>
+            <a class="v-btn v-btn--ghost" href="https://wa.me/79215392969" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="v-btn v-btn--ghost" href="https://t.me/+79215392969" target="_blank" rel="noopener">Telegram</a>
+          </div>
+          <span class="hero__when"><b>+7 921 539-29-69</b><br>каждый день с 10:00</span>
+        </div>
+        <footer class="foot">
+          <span>Кофейня «Кекс», Сокол, Советская улица, 77, ТЦ «Арбат». <span class="slot">{{юрлицо}}</span></span>
+          <span>Фото и меню – с карточки кофейни на Яндекс Картах. Демо-сайт собран по открытым данным Яндекс Карт и страницы ВКонтакте.</span>
+        </footer>
+      </div>
+    </section>
+
+  </main>
+  <dialog class="lb" data-lb aria-label="Страница меню">
+    <img src="" alt="" data-lb-img>
+    <button type="button" class="lb__close" data-lb-close aria-label="Закрыть">Закрыть</button>
+  </dialog>
+</div>
+
+<script src="vibe.js"></script>
+<script>
+(function () {
+  "use strict";
+  // ---- «Сегодня в Кексе»: открыто ли сейчас (время Москвы) ----
+  var TZ = 3, OPEN = 10 * 60;
+  var CLOSE = [21, 21, 21, 21, 21, 22, 22]; // вс..сб, час закрытия зала
+  var DAYS = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
+  var MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
+  var $ = function (s) { return document.querySelector(s); };
+
+  try {
+    var now = new Date(Date.now() + TZ * 36e5); // часы Москвы в полях UTC
+    var wd = now.getUTCDay(), cur = now.getUTCHours() * 60 + now.getUTCMinutes();
+    var closeH = CLOSE[wd], kitchenH = closeH - 1;
+
+    $("[data-today-date]").textContent = "Сегодня, " + now.getUTCDate() + " " + MONTHS[now.getUTCMonth()] + ", " + DAYS[wd];
+    $("[data-time-text]").textContent = "10:00 – " + closeH + ":00";
+    var li = $('[data-hours] [data-d="' + wd + '"]'); if (li) li.classList.add("is-today");
+
+    var isOpen = cur >= OPEN && cur < closeH * 60;
+    $("[data-status]").classList.toggle("is-closed", !isOpen);
+    $("[data-status-text]").textContent = isOpen ? "Сейчас открыто, до " + closeH + ":00, кухня до " + kitchenH + ":00"
+      : cur < OPEN ? "Сейчас закрыто, откроемся сегодня в 10:00"
+      : "Сейчас закрыто, откроемся завтра в 10:00";
+  } catch (e) { /* блок остаётся с текстом по умолчанию */ }
+
+  // ---- страницы меню: крупно по клику ----
+  var lb = $("[data-lb]"), lbImg = $("[data-lb-img]");
+  if (lb && lb.showModal) {
+    document.querySelectorAll("[data-full]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var img = b.querySelector("img");
+        lbImg.src = b.getAttribute("data-full"); lbImg.alt = img ? img.alt : "";
+        lb.showModal();
+      });
+    });
+    $("[data-lb-close]").addEventListener("click", function () { lb.close(); });
+    lb.addEventListener("click", function (e) { if (e.target === lb) lb.close(); });
+  }
+
+  var hdr = document.querySelector(".bar");
+  var onScroll = function () { hdr.classList.toggle("is-scrolled", scrollY > 40); };
+  addEventListener("scroll", onScroll, { passive: true }); onScroll();
+  Vibe.mount(document.querySelector(".v-page"));
+})();
+</script>
+</body>
+</html>
